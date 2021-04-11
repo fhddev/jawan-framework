@@ -1,0 +1,22 @@
+<?php
+namespace stub.namespace;
+
+use Jawan\Core\MVC\JF_Controller;
+
+/**
+* stub.class-name class
+*
+*/
+class stub.class-name extends JF_Controller 
+{
+	
+    /**
+    * Index action
+    *
+    */
+	public function index()
+	{
+		//return $this->app->loader->view('stub.class-name-lc::index');
+	}
+
+}

@@ -1,0 +1,13 @@
+<?php
+namespace stub.namespace;
+
+use Jawan\Core\MVC\JF_Model;
+
+/**
+* stub.class-name class
+*
+*/
+class stub.class-name extends JF_Model
+{
+	//
+}

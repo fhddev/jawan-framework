@@ -1,0 +1,21 @@
+{
+    "name": "fhddev/jawan-framework",
+    "description": "The Jawan framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fahad",
+            "homepage": "https://github.com/fhddev"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Jawan\\": "src/"
+		}
+	},
+    "require": {
+		"php": ">=7.0.0",
+        "symfony/console": "^5.2@dev"
+	}
+}

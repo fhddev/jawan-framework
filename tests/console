@@ -1,0 +1,16 @@
+<?php
+require __DIR__.'/../vendor/autoload.php';
+
+//
+define('ROOT', realpath(dirname(__FILE__)));
+
+use Jawan\Console\Console;
+use Jawan\Console\Command\MakeControllerCommand;
+use Jawan\Console\Command\MakeModelCommand;
+
+$console = new Console();
+
+$console->add(new MakeControllerCommand());
+$console->add(new MakeModelCommand());
+
+$console->run();
